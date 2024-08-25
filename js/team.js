@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team</title>
-    <link rel="stylesheet" href="../css/team.css">
-    <link rel="stylesheet" href="../css/header.css">
-</head>
-<body>
-    
-    <main class="main">
+const mainListDOM = document.getElementsByTagName('main');
+
+if (mainListDOM.length === 0) {
+    console.error('Nepavyko rasti "main" elemento');
+} else {
+    const mainDOM = mainListDOM[0];
+    const teamHTML = `
         <h1>Meet Our Team</h1>
-        <!--<div class="team">
+        <div class="team">
             <div class="teamMember">
                 <img src="https://techtrickseo.com/wp-content/uploads/2016/09/Funny-Avatar-Mr-Bean-Smiling-Photoshop-Image.jpg" alt="huh?">
                 <h3>Avatar Bean</h3>
@@ -32,9 +27,8 @@
                 <h3>Mr. Judesys</h3>
                 <p>Marketing Manager</p>
             </div>
-        </div> -->
-    </main>
-    <script type="module" src="../js/team.js"></script>
-    <script type="module" src="../js/header.js"></script>
-</body>
-</html>
+        </div>
+    `;
+
+    mainDOM.innerHTML = teamHTML;
+}

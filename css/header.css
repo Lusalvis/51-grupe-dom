@@ -1,0 +1,30 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    background-color: transparent;
+   
+}
+
+.navBar a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 16px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    background-color: #a9a8aa;
+    margin-right: 10px;
+}
+
+.navBar a:hover {
+    background-color: #c0bec2; 
+    border-color: #ffffff;
+}
+
+.navBar img {
+    height: 30px;
+    width: auto;
+    margin-right: 20px;
+}
