@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: 
+Site published at:  https://lusalvis.github.io/51-grupe-dom/
 
 Design: _none_
 
@@ -47,7 +47,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/front-end-by-rimantas/51-grupe-easy-dom.git
+    git clone https://github.com/Lusalvis/51-grupe-dom
     ```
 2. Install NPM packages
     ```sh
@@ -68,7 +68,8 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+
+Lukas: [Github](https://github.com/Lusalvis)
 
 ## ⚠️ License
 
