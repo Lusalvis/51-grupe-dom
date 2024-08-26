@@ -29,8 +29,8 @@
     color: #555;
 }
 
-#home-score,
-#guest-score {
+#homeScore,
+#guestScore {
     font-size: 2.5em;
     font-weight: bold;
     margin-bottom: 10px;
@@ -56,3 +56,22 @@
     margin-bottom: 20px;
 }
 
+#quarter {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#nextQuarter {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: backgroind-color 0.3s ease;
+
+}
+
+#nextQuarter:hover {
+    background-color: #218838;
+}
