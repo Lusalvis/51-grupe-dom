@@ -14,14 +14,13 @@ function header() {
                 <a href="#" id="custom2">Testimonials</a>
                 <a href="../team/index.html">Team</a>
                 <a href="#" id="custom3">Get Free</a>
-                <a href="../basketball/index.html" id="custom4">Krepsinis</a>
+                <a href="../basketball/index.html">Krepsinis</a>
             </nav>
         </header>
         
         <audio id="info1" src="../custom/info1.mp3"></audio>
         <audio id="info2" src="../custom/info2.mp3"></audio>
         <audio id="info3" src="../custom/info3.mp3"></audio>
-        <audio id="info4" src="https://www.myinstants.com/en/instant/bang-basketball-13952/"></audio>
     `;
     
     document.body.insertAdjacentHTML('afterbegin', headerHTML);

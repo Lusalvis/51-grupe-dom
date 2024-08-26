@@ -9,6 +9,7 @@
 .scoreboard {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
 }
 
@@ -19,7 +20,7 @@
 }
 
 .teamLogo {
-    width: 120px;
+    width: 100px;
     height: auto;
     margin-bottom: 10px;
 }
@@ -68,10 +69,33 @@
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
-    transition: backgroind-color 0.3s ease;
-
+    transition: background-color 0.3s ease;
 }
 
 #nextQuarter:hover {
     background-color: #218838;
 }
+
+#scoresTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#scoresTable th,
+#scoresTable td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#scoresTable th {
+    background-color: #007bff;
+    color: white;
+}
+
+#scoresTable td {
+    background-color: #f9f9f9;
+}
+
+
